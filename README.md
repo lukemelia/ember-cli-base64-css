@@ -1,5 +1,4 @@
-## Ember Addon to base 64 images in CSS
-
+## Ember Addon to convert image paths to base64 strings
 
 ### Install
 ``` sh
