@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-base64-css",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Replace image paths in CSS with base 64 encoded strings",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "broccoli-base64-css": "0.0.2"
   },
   "keywords": [
-    "ember-addon"
-  , "css"
-  , "base64"
+    "ember-addon",
+    "css",
+    "base64"
   ]
 }
