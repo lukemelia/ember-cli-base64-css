@@ -2,6 +2,7 @@
   "name": "ember-cli-base64-css",
   "version": "0.0.1",
   "description": "Replace image paths in CSS with base 64 encoded strings",
+  "repository": "https://github.com/moudy/ember-cli-base64-css",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
