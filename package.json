@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-base64-css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "convert image paths to base64 strings",
   "repository": "https://github.com/moudy/ember-cli-base64-css",
   "main": "index.js",
