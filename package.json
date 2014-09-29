@@ -7,6 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "ember-addon": {
+    "before": "broccoli-asset-rev"
+  },
   "author": "Moudy <moudy.elkammash@gmail.com>",
   "license": "MIT",
   "dependencies": {
