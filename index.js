@@ -13,7 +13,7 @@ module.exports = {
   },
   included: function included(app) {
     this.app = app;
-    this.options = this.app.options.base64CSS;
+    this.options = this.app.options.base64CSS || {};
     if (this.options.enabled === undefined) {
       this.options.enabled = true;
     }
