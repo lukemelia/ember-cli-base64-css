@@ -18,4 +18,4 @@ module.exports = {
       this.options.enabled = true;
     }
   }
-}
+};
