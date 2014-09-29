@@ -13,7 +13,8 @@ Example with default options in your Ember CLI `Brocfile.js`.
 ```js
 var app = new EmberApp({
    base64CSS: {
-    imagePath: 'public'
+    enabled: true
+  , imagePath: 'public'
   , maxFileSize: 4096 // larger files will be left untouched
   , extensions: ['css']
   , fileTypes: ['png', 'jpg', 'jpeg', 'gif', 'svg']
