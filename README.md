@@ -1,6 +1,6 @@
 ## ember-cli-base64-css
 
-An Ember Addon to convert image paths to base64 strings
+An Ember Addon to convert asset urls to base64 strings
 
 ### Install
 ``` sh
@@ -14,6 +14,7 @@ Example with default options in your Ember CLI `Brocfile.js`.
 var app = new EmberApp({
    base64CSS: {
     enabled: true
+  , fontPath: 'public'
   , imagePath: 'public'
   , maxFileSize: 4096 // larger files will be left untouched
   , extensions: ['css']

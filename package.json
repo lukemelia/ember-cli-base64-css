@@ -13,7 +13,7 @@
   "author": "Moudy <moudy.elkammash@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "broccoli-base64-css": "0.0.3"
+    "broccoli-base64-css": "0.0.4"
   },
   "keywords": [
     "ember-addon",
