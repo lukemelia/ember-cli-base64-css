@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-base64-css",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "convert image paths to base64 strings",
   "repository": "https://github.com/moudy/ember-cli-base64-css",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "author": "Moudy <moudy.elkammash@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "broccoli-base64-css": "0.0.4"
+    "broccoli-base64-css": "0.0.5"
   },
   "keywords": [
     "ember-addon",
