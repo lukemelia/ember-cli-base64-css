@@ -4,14 +4,14 @@ An Ember Addon to convert asset urls to base64 strings
 
 ### Install
 ``` sh
-npm install --save-dev ember-cli-base64-css
+ember install ember-cli-base64-css
 ```
 
 ### Usage
-Example with default options in your Ember CLI `Brocfile.js`.
+Example with default options in your Ember CLI `ember-cli-build.js`.
 
 ```js
-var app = new EmberApp({
+var app = new EmberApp(defaults, {
    base64CSS: {
     enabled: true
   , fontPath: 'public'
@@ -23,6 +23,6 @@ var app = new EmberApp({
 });
 ```
 
-If you are fine with the default options, there is no need to configure anything in `Brocfile.js`.
+If you are fine with the default options, there is no need to configure anything in `ember-cli-build.js`.
 
 
