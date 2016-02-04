@@ -5,7 +5,7 @@ module.exports = {
   name: 'ember-cli-base64-css',
   postprocessTree: function (type, tree) {
     if (this.options.enabled) {
-      if (type === 'all' || type === 'styles') {
+      if (type === 'all' || type === 'styles' || type === 'css') {
         tree = base64CSS(tree, this.options);
       }
     }
